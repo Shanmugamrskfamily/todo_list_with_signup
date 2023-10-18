@@ -22,30 +22,79 @@
   </head>
   <body>
     <div class="container">
+      <div class="text-end">
+        <h5 style="color: orange; font-weight: bold">
+          Already Have Account? <i class="fa fa-arrow-down"></i>
+        </h5>
+        <a href="./login.html">
+          <button class="btn btn-primary">Login</button>
+        </a>
+      </div>
       <div class="row">
         <div class="col-md-6 offset-md-3">
-          <h2 class="text-center">Signup</h2>
-          <form id="signup-form">
-            <div class="form-group">
-              <label for="username">Username:</label>
-              <input type="text" class="form-control" id="username" required />
-            </div>
-            <div class="form-group">
-              <label for="password">Password:</label>
-              <input
-                type="password"
-                class="form-control"
-                id="password"
-                required />
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary btn-block">
-                Signup
-              </button>
-            </div>
-          </form>
+          <div class="login-box form-container">
+            <h1 class="text-center text-white">Signup</h1>
+            <form id="signup-form">
+              <div class="form-group m-2">
+                <b
+                  ><label class="text-white" for="username">Username:</label></b
+                >
+                <input
+                  type="text"
+                  class="form-control mt-2"
+                  id="username"
+                  required />
+              </div>
+              <div class="form-group m-2">
+                <b
+                  ><label class="text-white" for="password">Password:</label></b
+                >
+                <input
+                  type="password"
+                  class="form-control mt-2"
+                  id="password"
+                  required />
+              </div>
+              <div class="text-center mt-2">
+                <button
+                  type="submit"
+                  style="font-size: 25px"
+                  class="btn btn-success mt-2 btn-block">
+                  Signup
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+    </div>
+    <div style="margin-top: 200px">
+      <footer class="bg-dark mt-5 text-light text-center py-4">
+        <div class="">
+          <div class="row">
+            <div class="col-md-6">
+              <a
+                href="https://www.linkedin.com/in/shanmugamrskfamily/"
+                target="_blank"
+                class="icon-link">
+                Linkedln<i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/Shanmugamrskfamily"
+                target="_blank"
+                class="icon-link">
+                GitHub<i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <p>
+                &copy; <span id="copyright-year"></span> SHANMUGAM R. All Rights
+                Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="signup.js"></script>
   </body>

@@ -1,16 +1,16 @@
-body {
-  background-image: url("./Assets/signup.jpeg"); /* Specify the path to your background image */
-  background-size: cover;
-  background-position: center;
-}
-.form-container {
+.listItems {
   backdrop-filter: blur(10px); /* Adjust the blur effect as needed */
   border-radius: 10px; /* Optional: Add rounded corners to the container */
   padding: 20px; /* Optional: Add padding to the container */
+  font-weight: bold;
+  font-size: 30px;
 }
-label {
-  font-size: 25px;
+body {
+  background-image: url("./Assets/todo.jpg"); /* Specify the path to your background image */
+  background-size: cover;
+  background-position: center;
 }
 h1 {
+  font-weight: bold;
   font-size: 45px;
 }
