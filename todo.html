@@ -21,8 +21,14 @@
   </head>
   <body>
     <div class="container">
-      <h2>To-Do List</h2>
-      <div class="input-group mb-3">
+      <a href="./login.html"
+        ><h4 class="text-end mt-2">
+          <button class="btn btn-danger">Logout</button>
+        </h4></a
+      >
+      <h2 class="text-center">To-Do List Manager</h2>
+
+      <div class="input-group mt-4 mb-3">
         <input
           type="text"
           id="task-input"
@@ -31,12 +37,12 @@
           aria-label="Task"
           aria-describedby="add-task-button" />
         <div class="input-group-append">
-          <button id="add-task-button" class="btn btn-primary">Add Task</button>
+          <button id="add-task-button" class="btn btn-primary m-2">
+            Add Task
+          </button>
         </div>
       </div>
-      <ul id="task-list" class="list-group">
-        <!-- To-Do List items will be dynamically added here -->
-      </ul>
+      <ul id="task-list" class="list-group"></ul>
     </div>
     <script src="todo.js"></script>
   </body>

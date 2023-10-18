@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const taskInput = document.getElementById("task-input");
     const addTaskButton = document.getElementById("add-task-button");
     const taskList = document.getElementById("task-list");
-
-    // Load tasks from local storage
     const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
     function saveTasks() {
@@ -18,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         taskTextElement.textContent = taskText;
 
         const editButton = document.createElement("button");
-        editButton.classList.add("btn", "btn-primary");
+        editButton.classList.add("btn", "btn-primary","m-2");
         editButton.textContent = "Edit";
         editButton.addEventListener("click", function () {
             const newText = prompt("Edit task:", taskText);
@@ -30,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         const deleteButton = document.createElement("button");
-        deleteButton.classList.add("btn", "btn-danger");
+        deleteButton.classList.add("btn", "btn-danger","m-2");
         deleteButton.textContent = "Delete";
         deleteButton.addEventListener("click", function () {
             if (confirm("Are you sure you want to delete this task?")) {
