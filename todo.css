@@ -1,12 +1,12 @@
 .listItems {
-  backdrop-filter: blur(10px); /* Adjust the blur effect as needed */
-  border-radius: 10px; /* Optional: Add rounded corners to the container */
-  padding: 20px; /* Optional: Add padding to the container */
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
   font-weight: bold;
   font-size: 30px;
 }
 body {
-  background-image: url("./Assets/todo.jpg"); /* Specify the path to your background image */
+  background-image: url("./Assets/todo.jpg");
   background-size: cover;
   background-position: center;
 }

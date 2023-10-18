@@ -1,12 +1,12 @@
 body {
-  background-image: url("./Assets/signup.jpeg"); /* Specify the path to your background image */
+  background-image: url("./Assets/signup.jpeg");
   background-size: cover;
   background-position: center;
 }
 .form-container {
-  backdrop-filter: blur(10px); /* Adjust the blur effect as needed */
-  border-radius: 10px; /* Optional: Add rounded corners to the container */
-  padding: 20px; /* Optional: Add padding to the container */
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
 }
 label {
   font-size: 25px;
